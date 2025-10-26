@@ -21,8 +21,8 @@ export const events = [
     date: "October 10, 2025",
     location: "Manipal University, AB1",
     registrationLink: "https://unstop.com/p/rewind-and-recode-rajasthan-d3-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-bhubaneswa-1545708",
-    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
-    certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
+    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1NMJn64yX49lKG7AY-pez0FE5_JutGBR1?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["D3-Tech Fest", "code for change", "innovation unleashed"],
     organizer: "Cyber Space Club",
   },
@@ -63,7 +63,7 @@ export const events = [
     date: "August 23, 2025",
     location: "Manipal University, AB1",
     registrationLink: "https://forms.gle/nkCMbajshYxp8ZDb9",
-    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "https://drive.google.com/drive/folders/1_zk3jlp-i9zvoyU5ZjsmtD3Nk4sjKMK5?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["teamwork wins", "battle of brains", "outsmart outplay"],
     organizer: "Cyber Space Club",

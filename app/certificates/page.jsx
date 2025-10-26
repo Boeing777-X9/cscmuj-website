@@ -169,7 +169,7 @@ const CertificatesPage = () => {
                     
                     <button
                       onClick={() => handleDownloadCertificates(event)}
-                      className="px-4 py-2 bg-linear-to-r from-[#fe8d32] to-[#f8be19] rounded-lg text-white text-sm font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
+                      className="px-4 py-2 bg-linear-to-r from-[#fe8d32] to-[#f8be19] rounded-lg text-white text-sm font-semibold hover:opacity-90 hover:scale-105 hover:shadow-lg hover:shadow-[#fe8d32]/30 transition-all duration-300 flex items-center gap-2 cursor-pointer"
                     >
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -240,7 +240,7 @@ const CertificatesPage = () => {
                 <circle cx="12" cy="12" r="10" fill="currentColor"/>
                 <rect x="6" y="11" width="12" height="2" fill="black"/>
               </svg>
-              Certificates Already Distributed
+              Certificates Distributed
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8">
               {distributedEvents.map((event, index) => (
@@ -316,7 +316,7 @@ const CertificatesPage = () => {
                     {event.certificateStatus === "available" && (
                       <button
                         onClick={() => handleDownloadCertificates(event)}
-                        className="px-4 py-2 bg-linear-to-r from-[#fe8d32] to-[#f8be19] rounded-lg text-white text-sm font-semibold hover:opacity-90 transition-opacity flex items-center gap-2"
+                        className="px-4 py-2 bg-linear-to-r from-[#fe8d32] to-[#f8be19] rounded-lg text-white text-sm font-semibold hover:opacity-90 hover:scale-105 hover:shadow-lg hover:shadow-[#fe8d32]/30 transition-all duration-300 flex items-center gap-2 cursor-pointer"
                       >
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />

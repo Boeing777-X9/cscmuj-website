@@ -11,10 +11,25 @@ import playtopiaImage from "../assets/events/playtopia.png";
 import modularImage from "../assets/events/Mnexus.png";
 import awarenessImage from '../assets/events/cac.png';
 import rewindImage from '../assets/events/rewindnrecode.png';
+import bounty3Image from '../assets/events/bounty3.png';
 
 export const events = [
   {
     id: 1,
+    name: "Bounty Bonanza 3.0",
+    image: bounty3Image,
+    description:
+      "Under the flickering lights of Halloween night, Bounty Bonanza awakens — an old-school treasure hunt where whispers guide your path and shadows hide your fate. The campus transforms into a maze of cryptic riddles, hidden clues, and eerie mini-games that test both nerve and wit. Each step drags you deeper into the unknown, where every corner hums with secrets of the past. Only the sharpest minds and the bravest hearts will uncover the final bounty before the night claims its hunters.",
+    date: "November 8, 2025",
+    location: "Manipal University Jaipur",
+    registrationLink: "https://forms.gle/wEiakddK6FygBbVQ9",
+    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
+    tags: ["halloween hunt", "whispers and winners", "eerie escapade"],
+    organizer: "Cyber Space Club",
+  },
+  {
+    id: 2,
     name: "Rewind & Recode",
     image: rewindImage,
     description: "Get ready for 24 hours of non-stop coding and creativity! 🚀 Teaming up with IIIT-B for an exciting Hackathon where brilliant minds come together to solve real-world challenges, build innovative solutions, and push the limits of technology. It’s more than just a competition; it’s a celebration of ideas, teamwork, and unstoppable energy!",
@@ -27,7 +42,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 2,
+    id: 3,
     name: "Cyber Awareness Camp",
     image: awarenessImage,
     description:
@@ -41,7 +56,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 3,
+    id: 4,
     name: "Modular Nexus",
     image: modularImage,
     description:
@@ -55,7 +70,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 4,
+    id: 5,
     name: "PlayTopia",
     image: playtopiaImage,
     description:
@@ -69,7 +84,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 5,
+    id: 6,
     name: "Hack n' Earn 2.0",
     image: hacknearnImage,
     description:
@@ -83,7 +98,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 6,
+    id: 7,
     name: "Build & Deploy 2.0",
     image: builddeploy2Image,
     description:
@@ -97,7 +112,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 7,
+    id: 8,
     name: "Capture the Flag",
     image: captureflagImage,
     description:
@@ -111,7 +126,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 8,
+    id: 9,
     name: "Alice in Borderland",
     image: aliceImage,
     description:
@@ -125,7 +140,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 9,
+    id: 10,
     name: "Bounty Bonanza 2.0",
     image: bountyImage,
     description:
@@ -139,7 +154,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 10,
+    id: 11,
     name: "Build Fest",
     image: buildfestImage,
     description:
@@ -153,7 +168,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 11,
+    id: 12,
     name: "Battle Blitz 2.0",
     image: battleImage,
     description:
@@ -167,7 +182,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 12,
+    id: 13,
     name: "Error Odyssey 2.0",
     image: errorImage,
     description:
@@ -181,7 +196,7 @@ export const events = [
     organizer: "Cyber Space Club",
   },
   {
-    id: 13,
+    id: 14,
     name: "AI vs Human Debate",
     image: aihumanImage,
     description:

@@ -1,4 +1,14 @@
 export const eventWinners = {
+    "DECRYPTA": [
+        { name: "Team Parallax", position: 1 },
+        { name: "Team 633", position: 2 },
+        { name: "Team Capture Crew", position: 3 },
+    ],
+    "Bounty Bonanza 3.0": [
+        { name: "Team JD", position: 1 },
+        { name: "Team Map Masters", position: 2 },
+        { name: "Team Bhootni ke Dost", position: 3 },
+    ],
     "Rewind & Recode": [
         { name: "Team Inglorious Coders", position: 1 },
         { name: "Team Bits & Bytes", position: 2 },

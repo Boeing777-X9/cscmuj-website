@@ -24,8 +24,8 @@ export const events = [
     date: "November 9, 2025",
     location: "Manipal University Jaipur",
     registrationLink: "https://forms.gle/wEiakddK6FygBbVQ9",
-    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
-    certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
+    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateLink: "https://drive.google.com/drive/folders/1j4WNlGCLTFmaplVqenRdI4mnd4bmby9G?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["game on", "minds unleashed", "puzzle decryption"],
     organizer: "Cyber Space Club",
   },
@@ -38,7 +38,7 @@ export const events = [
     date: "November 8, 2025",
     location: "Manipal University, Old Mess",
     registrationLink: "https://forms.gle/wEiakddK6FygBbVQ9",
-    certificateStatus: "preparing",                                                                                   // "available", "preparing", or "distributed"
+    certificateStatus: "",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "https://drive.google.com/drive/folders/1PYcBG_cwbpi4fChKLmibeVrISZLlzU38?usp=share_link",          // Google Drive link (only needed when status is "available")
     tags: ["halloween hunt", "whispers and winners", "eerie escapade"],
     organizer: "Cyber Space Club",
@@ -51,7 +51,7 @@ export const events = [
     date: "October 10, 2025",
     location: "Manipal University, AB1",
     registrationLink: "https://unstop.com/p/rewind-and-recode-rajasthan-d3-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-bhubaneswa-1545708",
-    certificateStatus: "available",                                                                                   // "available", "preparing", or "distributed"
+    certificateStatus: "distributed",                                                                                   // "available", "preparing", or "distributed"
     certificateLink: "https://drive.google.com/drive/folders/1NMJn64yX49lKG7AY-pez0FE5_JutGBR1?usp=sharing",          // Google Drive link (only needed when status is "available")
     tags: ["D3-Tech Fest", "code for change", "innovation unleashed"],
     organizer: "Cyber Space Club",

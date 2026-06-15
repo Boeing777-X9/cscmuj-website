@@ -36,11 +36,11 @@ const Footer = () => {
                   href="tel:8977622044"
                   className="hover:text-[#ff8000] transition-colors"
                 >
-                  +91 73109 37659
+                  +91 95994 15311
                 </a>
               </div>
               <div className="text-sm opacity-80">
-                <p className="font-semibold">Kuber Chhabra</p>
+                <p className="font-semibold">Abhinav Trikha</p>
                 <p className="text-[#ff8000]">Chairperson</p>
               </div>
             </div>
@@ -52,11 +52,11 @@ const Footer = () => {
                   href="tel:7676176633"
                   className="hover:text-[#ff8000] transition-colors"
                 >
-                  +91 93738 42949
+                  +91 92352 85754
                 </a>
               </div>
               <div className="text-sm opacity-80">
-                <p className="font-semibold">Ganesh Kotwade</p>
+                <p className="font-semibold">Ambika Seth</p>
                 <p className="text-[#ff8000]">Vice Chairperson</p>
               </div>
             </div>
